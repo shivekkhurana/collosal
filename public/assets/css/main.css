@@ -1,0 +1,49 @@
+.container{
+	font-family:'CMU Classical Serif', 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin:50px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: rgba(0,0,0,0.1);
+  shape-rendering: crispEdges;
+}
+
+.axis .tick text{
+	font-size: 8px;
+	fill: rgba(0,0,0,0.5);
+}
+
+.chart svg:hover .axis .tick text{
+}
+
+.dot{
+	cursor: pointer;
+}
+
+.supplement {
+}
+
+.dot_label{
+	display:none;
+}
+
+.chart{
+	margin-bottom: 20px;
+}
+
+.chart svg{
+	padding:20px;
+}
+.chart .title{
+	text-align: center;
+	padding:20px;
+	border-top:1px solid #f1f1f1;
+	border-bottom:1px solid #eee;
+}
+
+.chart .desc{
+	float:left;
+}
